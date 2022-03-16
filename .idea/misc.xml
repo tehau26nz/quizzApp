@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tehau/AndroidStudioProjects/MyQuizzApp/app/src/main/res/drawable/correct_option_border_bg.xml" value="0.1" />
         <entry key="..\:/Users/tehau/AndroidStudioProjects/MyQuizzApp/app/src/main/res/drawable/default_option_border_bg.xml" value="0.1875" />
         <entry key="..\:/Users/tehau/AndroidStudioProjects/MyQuizzApp/app/src/main/res/drawable/selected_option_border_bg.xml" value="0.1" />
+        <entry key="..\:/Users/tehau/AndroidStudioProjects/MyQuizzApp/app/src/main/res/drawable/wrong_option_border_bg.xml" value="0.187" />
         <entry key="..\:/Users/tehau/AndroidStudioProjects/MyQuizzApp/app/src/main/res/layout/activity_main.xml" value="0.22333333333333336" />
         <entry key="..\:/Users/tehau/AndroidStudioProjects/MyQuizzApp/app/src/main/res/layout/activity_quizz_questions.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/tehau/AndroidStudioProjects/MyQuizzApp/app/src/main/res/layout/activity_result.xml" value="0.22333333333333336" />
       </map>
     </option>
   </component>
