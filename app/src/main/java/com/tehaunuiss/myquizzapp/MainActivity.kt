@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
                 ).show()
             }else{
                 val intent = Intent(this, QuizQuestionsActivity::class.java)
+                // Send this over to Quiz Activity on a string
+                intent.putExtra(Constants.USER_NAME,editTextName.text.toString())
                 startActivity(intent)
                 finish()
             }

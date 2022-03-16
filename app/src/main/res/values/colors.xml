@@ -10,4 +10,6 @@
     <color name="light_grey">#7A8089</color>
     <color name="dark_grey">#363A43</color>
     <color name="text_color_selected">#363A43</color>
+    <color name="green_validate">#55FF49</color>
+    <color name="red_error">#E94F37</color>
 </resources>

@@ -2,6 +2,12 @@ package com.tehaunuiss.myquizzapp
 
 object Constants {
 
+    // Storage keys to retrieve the data when switching from one activity to the other
+    const val USER_NAME : String = "user_name"
+    const val TOTAL_QUESTIONS : String = "total_questions"
+    const val CORRECT_ANSWERS : String = "correct_answers"
+
+
     fun getQuestions():ArrayList<Question>{
         val questionsList = ArrayList<Question>()
 
