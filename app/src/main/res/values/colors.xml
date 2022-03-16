@@ -12,4 +12,5 @@
     <color name="text_color_selected">#363A43</color>
     <color name="green_validate">#55FF49</color>
     <color name="red_error">#E94F37</color>
+    <color name="default_stroke_color">#E8E8E8</color>
 </resources>

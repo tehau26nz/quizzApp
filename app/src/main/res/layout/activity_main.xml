@@ -41,7 +41,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:textColor="#363843"
+                android:textColor="@color/dark_grey"
                 />
 
             <TextView
@@ -52,7 +52,7 @@
                 android:layout_marginTop="16dp"
                 android:textStyle="bold"
                 android:gravity="center"
-                android:textColor="#7A8089"
+                android:textColor="@color/light_grey"
                 />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -60,6 +60,8 @@
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_marginTop="20dp"
+                android:textColorHint="@color/light_grey"
+                app:boxStrokeColor="@color/light_grey"
                 >
 
                 <androidx.appcompat.widget.AppCompatEditText
@@ -69,7 +71,6 @@
                     android:hint="Name"
                     android:inputType="textCapWords"
                     android:textColor="@color/dark_grey"
-                    android:textColorHint="@color/light_grey"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -79,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@color/design_default_color_on_primary"
+                android:background="@color/design_default_color_primary"
                 android:text="Start"
                 android:textColor="@color/white"
                 android:textSize="18sp"
